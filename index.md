@@ -1,11 +1,5 @@
-# Programming projects
-1. pyapod
-2. Finite element analysis viewer
-3. Snake
-4. Game bot
-5. Fluid Dynamic
-
-# Project 1 : pyapod
+# Projects
+## project 1 :pyapod
 ### Python3 | PyQt5
 
 ![pyapod screenshot](images/pyapod.png)
@@ -29,7 +23,7 @@ cool pictures and reading stuff about Space. It was a good introduction to APIs,
 
 ---
 
-# Project 2 : Finite element analysis viewer
+## Project 2 : Finite element analysis viewer
 ### Python3 | SQL | PyQt5 | pptk | multiprocessing | matplotlib
 ![pyapod screenshot](images/FEA_viewer.png)
 
@@ -47,7 +41,7 @@ This software has been very useful for me as an aircraft engineer.
 
 ---
 
-# Project 3 : Snake
+## Project 3 : Snake
 ### C++ | SFML
 
 ![snake screenshot](images/Snake_Game.png)
@@ -56,7 +50,7 @@ Well... It's a Snake game.
 
 ---
 
-# Project 4 : Game Bot
+## Project 4 : Game Bot
 ### Python3 | tkinter | selenium | pytesseract | anticaptcha
 
 ![raspberry](images/raspberry.png)
@@ -73,7 +67,7 @@ This is not a big OOP project and the GUI is very basic but it is definetely one
 
 ---
 
-# Project 5 : Fluid Dynamics
+## Project 5 : Fluid Dynamics
 ### C++ | Qt | SFML
 
 Work in progress...
