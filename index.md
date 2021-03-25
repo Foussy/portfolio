@@ -64,8 +64,6 @@ For further development, I would like to keep track of every catpcha I download 
 
 This is not a big OOP project and the GUI is very basic but it is definetely one that I enjoyed a lot because I had very few knowledge of what should be done, and I started sketching from scratch how I should automate stuff, browsing documentations, tinkering a way to get things done. This is why I wanted to add it to the list.
 
-The funny thing is that because I obviously broke some in-game rules, my account has been banned and I am no longer using this script. I guess I deserved it.
-
 ---
 
 # Project 5 : Fluid Dynamics
