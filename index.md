@@ -54,7 +54,7 @@ Well... It's a Snake game.
 
 ![raspberry](images/raspberry.png)
 
-Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lords.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system and since I dug a bit into it, I found a way to entirely automate the process of earning money.
+Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lordswm.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system and since I dug a bit into it, I found a way to entirely automate the process of earning money.
 
 This program was constantly running on my raspberry pi. It is coded in Python3 and uses Selenium library to automate some tasks using a web browser. So basically, every hour, it logs me into the website and performs some specific tasks (finds my location, then available factories sorted by descending wage, downloads a captcha and solves it thanks to an independent OCR service). Using selenium-webscrapping capabilities, It has a virtual market surveillance feature to check if some goods are sold under the general market value. If it is the case, it buys them automatically and put them back in the market instantly for a higher bid.
 
