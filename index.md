@@ -1,6 +1,8 @@
 # Project 1 : pyapod
 ### Python3 | PyQt5
+
 ![pyapod screenshot](images/pyapod.png)
+
 This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html). Posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 library and it uses the API developped by NASA.
 
 
@@ -40,13 +42,16 @@ This software has been very useful for me as an aircraft engineer.
 
 # Project 3 : Snake
 ### C++ | SFML
+
 ![snake screenshot](images/Snake_Game.png)
+
 Well... It's a Snake game.
 
 ---
 
 # Project 4 : Game Bot
 ### Python3 | tkinter | selenium | pytesseract | anticaptcha
+
 ![raspberry](images/raspberry.png)
 
 Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lords.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system and since I dug a bit into it, I found a way to entirely automate the process of earning money.
@@ -65,4 +70,5 @@ The funny thing is that because I obviously broke some in-game rules, my account
 
 # Project 5 : Fluid Dynamics
 ### C++ | Qt | SFML
+
 Work in progress...
