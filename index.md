@@ -1,14 +1,15 @@
 # Project 1 : pyapod
 ### Python3 | PyQt5
-This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html). Posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 library and it uses the API developped by NASA.
 ![pyapod screenshot](images/pyapod.png)
+This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html). Posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 library and it uses the API developped by NASA.
+
 
 Main features :
 * Loading and rezising dynamically the images from the API. 
 * Opens up today’s picture
 * Possibility to change the date backward/forward, select a specific or a random one.
 * Title, date, description and copyrights displayed of the bottom textbox.
-* Dark theme for better aesthetic and consistent with Space theme.
+* Dark theme for better aesthetic and consistency with Space.
 
 Features in developement :
 * Favorites menu
@@ -21,11 +22,14 @@ cool pictures and reading stuff about Space. It was a good introduction to APIs,
 
 # Project 2 : Fluid Dynamics
 ### C++ | Qt | SFML
+Work in progress...
 
 ---
 
+
 # Project 3 : Finite element analysis viewer
 ### Python3 | SQL | PyQt5 | pptk | multiprocessing | matplotlib
+![pyapod screenshot](images/FEA_viewer.png)
 
 This is a productivity tool I developed working as a Simulation Engineer to dimension aircraft structure. 
 
@@ -38,7 +42,6 @@ What this software does is to retrieve all the data from the files, sorts & reor
 There are many features to display the different criterions of the simulation, changing the threshold, sorting them in the tables, looking at the different layers of the carbon composites structures, and many others...
 
 This software has been very useful for me as an aircraft engineer.
-![pyapod screenshot](images/FEA_viewer.png)
 
 ---
 
