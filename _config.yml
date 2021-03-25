@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
 title: Welcome to my portfolio
 description: Some of my programming projects are presented here
+github:
+  is_project_page: false
