@@ -1,3 +1,10 @@
+# Programming projects
+1. pyapod
+2. Finite element analysis viewer
+3. Snake
+4. Game bot
+5. Fluid Dynamic
+
 # Project 1 : pyapod
 ### Python3 | PyQt5
 
