@@ -41,12 +41,13 @@ This software has been very useful for me as an aircraft engineer.
 # Project 3 : Snake
 ### C++ | SFML
 ![snake screenshot](images/Snake_Game.png)
+Well... It's a Snake game.
 
 ---
 
 # Project 4 : Game Bot
 ### Python3 | tkinter | selenium | pytesseract | anticaptcha
-![snake screenshot](images/raspberry.png)
+![raspberry](images/raspberry.png)
 
 Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lords.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system and since I dug a bit into it, I found a way to entirely automate the process of earning money.
 
@@ -54,7 +55,7 @@ This program was constantly running on my raspberry pi. It is coded in Python3 a
 
 For further development, I would like to keep track of every catpcha I download and train my own AI to solve them for me. I just started learning about Neuronal Network/Deep Learning and tried to go with Tensor Flow but didn’t have time to pull something out yet.
 
-![snake screenshot](images/captcha.png)
+![captcha](images/captcha.png)
 
 This is not a big OOP project and the GUI is very basic but it is definetely one that I enjoyed a lot because I had very few knowledge of what should be done, and I started sketching from scratch how I should automate stuff, browsing documentations, tinkering a way to get things done. This is why I wanted to add it to the list.
 
