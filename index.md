@@ -1,5 +1,3 @@
-# 
-
 # Project 1 : pyapod
 ### Python3 | PyQt5
 
