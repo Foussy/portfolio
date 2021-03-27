@@ -50,7 +50,7 @@ Well... It's a Snake game.
 
 ---
 
-# project 4 : Game Bot
+# project 4 : Game bot
 ## Python3 | tkinter | selenium | pytesseract | anticaptcha
 
 ![raspberry](images/raspberry.png)
@@ -61,7 +61,7 @@ I was running this programm on my raspberry pi. What it does is :
 * Every hour, it opens up a web browser using Selenium and logs me into the website.
 * Then it performs some specific game tasks : find the location of my character, find factories with free slots sorted by descending wage, download a captcha and solve it (using OCR service). 
 
-I also aded several improvements like a market surveillance feature to check if some goods were sold under a threshold value I would fix. It would buy them and automatically put them back in the market for a higher bid.
+I also added several improvements like a market surveillance feature to check if some goods were sold under a threshold value I would fix. It would buy them and automatically put them back in the market for a higher bid.
 
 For further development, I was keeping track of every captcha I was downloading to train my own AI. I started learning about neuronal network and went with tensor flow but I eventually got my account closed for exploiting the game. Anyhow I had a lot of fun doing this project, because I had so few knowledge of everything. I spent a lot of time searching for documentations, browsing and tinkering a way to get things done. This is definetely not a big OOP project and the GUI is ugly, but this project is among my first ones and I liked every bit of it. This is why it is in the list.
 
@@ -69,7 +69,7 @@ For further development, I was keeping track of every captcha I was downloading 
 
 ---
 
-# project 5 : Fluid Dynamics
+# project 5 : Fluid dynamics
 ## C++ | Qt | SFML
 
 Work in progress...
