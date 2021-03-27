@@ -1,11 +1,9 @@
-# Projects
-## project 1 :pyapod
-### Python3 | PyQt5
+# project 1 : pyapod
+## Python3 | PyQt5
 
 ![pyapod screenshot](images/pyapod.png)
 
-This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html). Posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 library and it uses the API developped by NASA.
-
+This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html) posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 and it uses the API developped by NASA.
 
 Main features :
 * Loading and rezising dynamically the images from the API. 
@@ -16,33 +14,35 @@ Main features :
 
 Features in developement :
 * Favorites menu
-* cache manager to enhance performance when loading and resizing images
+* Cache manager to enhance performance when loading and resizing images
 
-I developed this app mainly because I like APOD a lot and I regularly spend some time browsing
-cool pictures and reading stuff about Space. It was a good introduction to APIs, how they work, etc...
+I developed this project mainly because I like apod a lot and I regularly kill some time browsing pictures and reading about Space on it. It was a good introduction to start learning about APIs.
 
 ---
 
-## Project 2 : Finite element analysis viewer
-### Python3 | SQL | PyQt5 | pptk | multiprocessing | matplotlib
+# project 2 : Finite element analysis viewer
+## Python3 | SQL | PyQt5 | pptk | multiprocessing | matplotlib
 ![pyapod screenshot](images/FEA_viewer.png)
 
-This is a productivity tool I developed working as a Simulation Engineer to dimension aircraft structure. 
+This is a productivity tool I developed working as a simulation engineer. In simple words, its purpose is to recover data extracted from CATIA V5's calculations, and display them in the most efficient and practical way for an engineer to analyze the results and utilize it as a decision maker.
 
-At that time, I was doing finite element analysis (FEA) using shell elements (2D element) for carbon composites structures. Doing the post-processing for big model results can be such a time-consuming task in the software I was using at that time (CatiaV5), especially because of poor performances and the lack of options to display results quickly. 
+At that time, I was doing finite element analysis (FEA) using shell elements (2D element) for carbon composites structures. This type of structures can be described as a multi-layered oriented stacks of carbon fibers. Doing the post-processing for big model results can be such a time-consuming task in CATIA V5, because some structures I was designing could contain many layers (up to 50) and I had to look in each one of them for the critical nodes (my biggest model contained 1 million nodes). Moreover, the software offered poor performances for this specific task.
 
-So basically I coded a macro in CatiaV5 that runs the simulation, generates the results and exports all the data in raw text files : x/y/z coordinates for each node, stresses values, composites failure criterion, deformation value, ...
+Eventually, I came up with this workflow :
+* After I was satisfied with a design, I was running a python script to manage the inputs of my model (.xml) and give it to CATIA
+* I would then launch a macro in CATIA that launches the computation, generates the results and exports all of it in raw text files
+* From this text files, I would use the software to recover x/y/z coord for each node of the mesh, the stress tensor, deformations, specific composites failure criterion (Hashin, Tsai-Wu, Puck...)
+* The software then sorts & reorganizes the results, removes the duplicates and the unwanted nodes. 
+* It stores them in a .db file which can then be loaded within the program to generate colorized cloud points in a 3D embedded window (_pptk_).
 
-What this software does is to retrieve all the data from the files, sorts & reorganizes them, removes duplicates, etc… And it stores them in a database file. This .db file can then be loaded inside within the program to generate cloud points in a 3D environment using the _pptk_ library.
+There are many features to this program, like the possibility to change the color threshold, to sort the point in tables which directly interact with the 3D window, to quickly and smoothly switch from one carbon layer to the other, and many others...
 
-There are many features to display the different criterions of the simulation, changing the threshold, sorting them in the tables, looking at the different layers of the carbon composites structures, and many others...
-
-This software has been very useful for me as an aircraft engineer.
+This software has been very useful for me and my team. 
 
 ---
 
-## Project 3 : Snake
-### C++ | SFML
+# project 3 : Snake
+## C++ | SFML
 
 ![snake screenshot](images/Snake_Game.png)
 
@@ -50,24 +50,26 @@ Well... It's a Snake game.
 
 ---
 
-## Project 4 : Game Bot
-### Python3 | tkinter | selenium | pytesseract | anticaptcha
+# project 4 : Game Bot
+## Python3 | tkinter | selenium | pytesseract | anticaptcha
 
 ![raspberry](images/raspberry.png)
 
-Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lordswm.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system and since I dug a bit into it, I found a way to entirely automate the process of earning money.
+Context : When I was ~13 years old, I started playing an online strategy turn-by-turn game called Lordswm.com. In this game, you can earn virtual money by going into factories and “work” for a certain wage. There is an economic system within the game and since I dug a bit into it, I found a way to entirely automate the process of earning money.
 
-This program was constantly running on my raspberry pi. It is coded in Python3 and uses Selenium library to automate some tasks using a web browser. So basically, every hour, it logs me into the website and performs some specific tasks (finds my location, then available factories sorted by descending wage, downloads a captcha and solves it thanks to an independent OCR service). Using selenium-webscrapping capabilities, It has a virtual market surveillance feature to check if some goods are sold under the general market value. If it is the case, it buys them automatically and put them back in the market instantly for a higher bid.
+I was running this programm on my raspberry pi. What it does is :
+* Every hour, it opens up a web browser using Selenium and logs me into the website.
+* Then it performs some specific game tasks : find the location of my character, find factories with free slots sorted by descending wage, download a captcha and solve it (using OCR service). 
 
-For further development, I would like to keep track of every catpcha I download and train my own AI to solve them for me. I just started learning about Neuronal Network/Deep Learning and tried to go with Tensor Flow but didn’t have time to pull something out yet.
+I also aded several improvements like a market surveillance feature to check if some goods were sold under a threshold value I would fix. It would buy them and automatically put them back in the market for a higher bid.
+
+For further development, I was keeping track of every captcha I was downloading to train my own AI. I started learning about neuronal network and went with tensor flow but I eventually got my account closed for exploiting the game. Anyhow I had a lot of fun doing this project, because I had so few knowledge of everything. I spent a lot of time searching for documentations, browsing and tinkering a way to get things done. This is definetely not a big OOP project and the GUI is ugly, but this project is among my first ones and I liked every bit of it. This is why it is in the list.
 
 ![captcha](images/captcha.png)
 
-This is not a big OOP project and the GUI is very basic but it is definetely one that I enjoyed a lot because I had very few knowledge of what should be done, and I started sketching from scratch how I should automate stuff, browsing documentations, tinkering a way to get things done. This is why I wanted to add it to the list.
-
 ---
 
-## Project 5 : Fluid Dynamics
-### C++ | Qt | SFML
+# project 5 : Fluid Dynamics
+## C++ | Qt | SFML
 
 Work in progress...
