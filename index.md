@@ -3,7 +3,7 @@
 
 ![pyapod screenshot](images/pyapod.png)
 
-This little software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html) posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 and it uses the API developped by NASA.
+This software is a cross platform front-end of the [Astronomy Picture Of the Day website](https://apod.nasa.gov/apod/astropix.html) posting Space related photos & videos everyday since June 1995. It is designed with python3 and PyQt5 and it uses the API developped by NASA.
 
 Main features :
 * Loading and rezising dynamically the images from the API. 
@@ -69,7 +69,16 @@ For further development, I was keeping track of every captcha I was downloading 
 
 ---
 
-# project 5 : Fluid dynamics
+# project 5 : Harmonic movements
+## Python | tkinter
+
+![raspberry](images/Harmonic_movements.png)
+
+I coded this program as part of my training as I was learning OOP. It can display parameterized sinusoids thanks to *'scale'* widgets instantly into the *´canvas´*.
+
+---
+
+# project 6 : Fluid dynamics
 ## C++ | Qt | SFML
 
 Work in progress...
