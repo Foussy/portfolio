@@ -41,16 +41,7 @@ This software has been very useful for me and my team.
 
 ---
 
-# project 3 : Snake
-## C++ | SFML
-
-![snake screenshot](images/Snake_Game.png)
-
-Well... It's a Snake game.
-
----
-
-# project 4 : Game bot
+# project 3 : Game bot
 ## Python3 | tkinter | selenium | pytesseract | anticaptcha
 
 ![raspberry](images/raspberry.png)
@@ -69,16 +60,7 @@ For further development, I was keeping track of every captcha I was downloading 
 
 ---
 
-# project 5 : Harmonic movements
-## Python | tkinter
-
-![raspberry](images/Harmonic_movements.png)
-
-I coded this program as part of my training as I was learning OOP. It can display parameterized sinusoids thanks to *'scale'* widgets instantly into the *´canvas´*.
-
----
-
-# project 6 : Fluid dynamics
+# project 4 : Fluid dynamics
 ## C++ | Qt | SFML
 
 Work in progress...
