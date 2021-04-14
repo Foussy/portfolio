@@ -60,7 +60,16 @@ For further development, I was keeping track of every captcha I was downloading 
 
 ---
 
-# project 4 : Fluid dynamics
+# project 4 : py-schach
+## Python | pygame
+
+![pyschach](images/pyschach.png)
+
+Still in development, the game mechanics are not there yet.
+
+---
+
+# project 5 : Fluid dynamics
 ## C++ | Qt | SFML
 
 Work in progress...
