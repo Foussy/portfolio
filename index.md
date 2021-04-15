@@ -1,4 +1,4 @@
-# project 1 : pyapod
+# project 1 : [pyapod](https://github.com/Foussy/pyapod)
 ## Python3 | PyQt5
 
 ![pyapod screenshot](images/pyapod.png)
@@ -20,7 +20,7 @@ I developed this project mainly because I like apod a lot and I regularly kill s
 
 ---
 
-# project 2 : Finite element analysis viewer
+# project 2 : [Finite element analysis viewer](https://github.com/Foussy/DTC_Workflow_Calcul_Avion)
 ## Python3 | SQL | PyQt5 | pptk | multiprocessing | matplotlib
 ![pyapod screenshot](images/FEA_viewer.png)
 
@@ -41,7 +41,7 @@ This software has been very useful for me and my team.
 
 ---
 
-# project 3 : Game bot
+# project 3 : [Game bot](https://github.com/Foussy/Lords_labour)
 ## Python3 | tkinter | selenium | pytesseract | anticaptcha
 
 ![raspberry](images/raspberry.png)
@@ -60,16 +60,37 @@ For further development, I was keeping track of every captcha I was downloading 
 
 ---
 
-# project 4 : py-schach
+# project 4 : [py-schach](https://github.com/Foussy/py-schach) (chess game)
 ## Python | pygame
 
 ![pyschach](images/pyschach.png)
 
-Still in development, the game mechanics are not there yet.
+Still in development, the game mechanics are not fully implemented.
 
 ---
 
 # project 5 : Fluid dynamics
 ## C++ | Qt | SFML
 
-Work in progress...
+This is my first big project in C++. This project is currently in progress. Its goal is to display 2D fluid fluently, to be able to play with it with inputs like mouse motion, add dye inside it to see the various effect of the Navier-Stokes equations, display the velocity field, etc... This project has been inspired by [this website](https://paveldogreat.github.io/WebGL-Fluid-Simulation/). I am really impressed about how fast the animation is while I know doing CFD with FEA softwares can quickly take huge amount of ressources and time to compute. After doing some researches, it is because this kind of programs tend to approximate solutions for Navier-Stokes. Its purpose is not to be accrurate scientificaly speaking, but instead it is just to look good and uses few resources. This is what developers use for rendering fluids in games or animation movies. If you want to know more about it, check out this paper written by Jos Stam : [Real-Time Fluid Dynamics for Games](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf).
+
+
+I already coded the program in python, but it is slow and kind of bugy with pygame. Feel free to look at the [my github repo](https://github.com/Foussy/Fluid_Dynamics/blob/master/Field.py). I am currently refactoring the code for C++.
+
+---
+
+# project 6 : [Snake](https://github.com/Foussy/Snake)
+## C++ | SFML
+
+![Snake](images/Snake_Game.png)
+
+Apart me going through Project Euler problems with C++, this is my first program in C++. Well, it's just a Snake Game, but it is functional !
+
+---
+
+# project 6 : Harmonic Movements
+##  Python | tkinter
+
+![Harmonic](images/Harmonic_movements.png)
+
+My first project as I was learning OOP.
