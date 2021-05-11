@@ -79,18 +79,18 @@ I already coded the program in python, but it is slow and kind of bugy with pyga
 
 ---
 
-# project 6 : [Snake](https://github.com/Foussy/Snake)
+# project 6 : Smartwatch tracker
+##  Python | PyQt5
+
+I have been gifted a [suunto 5 smartwatch](https://www.suunto.com/suunto-collections/suunto-5/) for keeping track of my running sessions. As I am fairly conscientious about sharing my private data with third-party companies, I had the idea of developping an app where I could retrieve my activites when connecting the watch to my pc without using any proprietary client.
+
+I am still trying to figure out how to access the watch data with a basic usb-wired or wireless connection under linux terminal or python.
+
+---
+
+# project 7 : [Snake](https://github.com/Foussy/Snake)
 ## C++ | SFML
 
 ![Snake](images/Snake_Game.png)
 
 Apart me going through Project Euler problems with C++, this is my first program in C++. Well, it's just a Snake Game, but it is functional !
-
----
-
-# project 6 : Harmonic Movements
-##  Python | tkinter
-
-![Harmonic](images/Harmonic_movements.png)
-
-My first project as I was learning OOP.
