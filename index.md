@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 
 ---
 # project 1 : [pyapod](https://github.com/Foussy/pyapod)
