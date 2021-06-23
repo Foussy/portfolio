@@ -1,3 +1,7 @@
+---
+layout: post
+
+---
 # project 1 : [pyapod](https://github.com/Foussy/pyapod)
 ## Python3 | PyQt5
 
